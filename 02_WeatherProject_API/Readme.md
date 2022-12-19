@@ -4,7 +4,7 @@ This is an API-driven web application that was built with Express.js. The user w
 Next, the data will be retrieved by the server, and the server will make a request to the API (https://openweathermap.org/api) to get the relevant information. If the location exists, the server will render information regarding the temperature and an icon depicting the weather. If the location does not exist, the server will display an appropriate message to the user. 
 In order for the program to work, you need to register at https://openweathermap.org/api for a free account and create your own API key that you will have to use in this program.  
 
---- 
+---  
 
 Useful Links:
 
