@@ -1,6 +1,6 @@
 # 04_ToDo_List_WEB_APP
 
-This is a to-do list web app with two routes. One route (/) will show the current date and month, and the other will be for work (/work). You can add items to each of the lists and mark them as checked (which will cross them out). This is a great way to follow up on your task and never forget what you have to do again! This web app was developed using Node.js, Express.js, EJS, CSS, HTML, and JavaScript. It's also a great example of how to use templating and parse variables into a ejs files, as well as how to create and use your own modules with Express.js.  
+This is a to-do list web app with two routes. One route (/) will show the current date and month, and the other will be for work (/work). You can add items to each of the lists and mark them as checked (which will cross them out). This is a great way to follow up on your task and never forget what you have to do again! This web app was developed using Node.js, Express.js, EJS, CSS, HTML, and JavaScript. It's also a great example of how to use templating and parse variables into a ejs files, as well as how to create and use your own modules with Express.js.   
 
 ---
 
