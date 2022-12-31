@@ -1,4 +1,4 @@
-# 05_Blog_Website
+# 05_Blog_Website 
 
 This is a blog website with a minimalistic design. It has a header with a navbar with a brand, and in the bootom, it has a sticky footer. The middle part consists of the actual content of the blog and will include the snippets (up to 100 characters long) of posts, and each of the posts will have a "read more" link that can redirect the user to the post detail view with the full text where you can read them independently. Posts will be listed in chronological order. The blog website consists of the home page, about page, and contact page, which can be accessed from the navbar, as well as a hidden route '/compose' that is used for creating posts. Everything is generated using EJS partials. The website is fully mobile-responsive. It was developed with Node.js and Express.js on the backend and CSS and Bootstrap 5.3 on the frontend. 
 
