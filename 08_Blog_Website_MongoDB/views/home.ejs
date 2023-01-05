@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/header'); -%>
+<body>
+    <%- include('includes/navbar'); -%>
+    <div class="container">
+        <h1><%= pageTitle %></h1>
+        <p><%= startingContent %></p>
+        
+        <% posts.forEach((post, index) => { %>
+            <h3><%=  post.title %></h3>
+            <p><%=  post.body.substring(0, 100) + "..." %> 
+                <!-- by title -->
+                <!-- <a href="/posts/<%= post.title %>">Read More</a> -->
+                <!-- by id - index -->
+                <a href="/posts/<%= post._id %>">Read More</a>
+            </p>
+        <% }); %>
+
+    </div>
+    <%- include('includes/footer'); -%>
+</body>
+</html>
