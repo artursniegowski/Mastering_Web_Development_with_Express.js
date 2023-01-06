@@ -45,4 +45,5 @@ This is a RESTful API created with Express.js, and Node.js, and the data is stor
 - PUT (update the entire article; unspecified parts will be removed),</br>
 - PATCH (update only a portion of the article, such as the title or content),</br>
 - DELETE (either delete all the articles or delete only one filtered by title).</br>
+
 In the documentation, you can find how to make all the requests with the necessary key words. 
