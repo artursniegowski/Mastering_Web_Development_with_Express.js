@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "name": "03_newsletter_signup_web_app",
+  "description": "This is a newletter web application, where you can email people who are interested in your product\r you can use this app for that. This is a single page, and the frontwend will be very simple with just\r the username name, and the email address, but on the backend there will have some powerful functinality, that will allow you to sign up \r people to your mailing list.\r So if a user wil sign up and it will be sucessful it will be redirected to the sucess page\r and if it wasent it will redirect to a fail page. \r The data if seucesfull will get send to our list on MailChimp, and all of that data gets\r added into our list, and our new subscriber gets added. \r It is integrated with MailChimp.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
