@@ -1,0 +1,2 @@
+Level 5 - using cookies and sesions to authenticate the user
+	hashing with salting on the database

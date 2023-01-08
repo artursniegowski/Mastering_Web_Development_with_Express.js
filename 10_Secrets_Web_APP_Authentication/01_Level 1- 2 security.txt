@@ -1,0 +1,4 @@
+Level 1 - saving user name and password on the serer
+Level 2 - using mongoose encrypt to store encypted passwords on the database
+additional  - adding enviromental variables to store our secrete - encryption code
+	- and then decrypt it by reading it with the find function with mongoose

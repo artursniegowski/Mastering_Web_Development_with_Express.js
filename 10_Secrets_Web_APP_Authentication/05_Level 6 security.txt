@@ -1,0 +1,7 @@
+Level 6 - using OAuth 2.0 - it is basicaly using a third party
+	service for authentication, we can use Facebook, or Google,
+	to do the hard work for us bc they have more resources,
+	so the user has to be authenticated in their service and allow
+	to use their authnetication in our app, this why we need to create an
+	app that gives us this possibility. on our databse we just save
+	an id of the user to identify if the user was alredy authenticated. 

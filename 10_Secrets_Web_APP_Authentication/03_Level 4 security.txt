@@ -1,0 +1,2 @@
+Level 4 - hashing the password with bcrypt and with adding random salt- 
+		and later saving this salted hash to the databse

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('includes/header'); -%>
+<body>
+  
+  <div class="container-fluid centered">
+    <div class="container">
+      <i class="fa-solid fa-key fa-6x"></i>
+      <h1 class="display-3 my-3">Secrets</h1>
+      <p class="secret-text">Don't keep your secrets, share them anonymously!</p>
+      <hr class="my-4">
+      <form action="/submit" method="POST">
+        <div class="mb-3">
+          <input type="text" class="form-control text-center" name="secret" placeholder="What's your secret?">
+        </div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <%- include('includes/footer'); -%>
+</body>
+</html>

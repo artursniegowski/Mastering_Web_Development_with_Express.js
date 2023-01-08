@@ -1,0 +1,1 @@
+Level 3 - hashing the password with md5 - and storing the hash in the databse
