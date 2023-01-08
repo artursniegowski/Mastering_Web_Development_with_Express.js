@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/header'); -%>
+<body>
+    <%- include('includes/navbar'); -%>
+    <div class="container">
+        <h1><%= pageTitle %></h1>
+        <form action="/compose" method="post">
+            <div class="mb-3">
+                <label for="postNameForm" class="form-label">Title</label>
+                <input type="text" name="postName" class="form-control" id="postNameForm" aria-describedby="postNameHelp" required>
+            </div>
+            <div class="mb-3">
+                <label for="postContentForm" class="form-label">Post</label>
+                <textarea type="text" name="postContent" class="form-control" id="postContentForm" aria-describedby="postContentHelp" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" name="button">Publish</button>
+        </form>
+    </div>
+    <%- include('includes/footer'); -%>
+</body>
+</html>
