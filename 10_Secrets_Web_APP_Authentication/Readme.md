@@ -27,7 +27,7 @@ Using authentication with added sessions and cookies:</br>
 passport</br>
 https://www.npmjs.com/package/passport</br>
 https://www.passportjs.org/concepts/authentication/logout/</br>
-
+ 
 passport-local</br>
 https://www.npmjs.com/package/passport-local</br>
 
