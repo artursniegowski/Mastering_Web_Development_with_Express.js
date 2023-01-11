@@ -31,7 +31,7 @@ https://www.passportjs.org/concepts/authentication/logout/</br>
 passport-local</br>
 https://www.npmjs.com/package/passport-local</br>
 
-passport-local-mongoose</br>
+passport-local-mongoose</br> 
 https://www.npmjs.com/package/passport-local-mongoose</br>
 
 express-session</br>
